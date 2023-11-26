@@ -1,0 +1,24 @@
+<model-viewer src="human.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1.55" environment-image="aircraft_workshop_01_1k.hdr" exposure="0.35" shadow-softness="0.98" camera-orbit="926.2deg 78.78deg 383.7m" field-of-view="30deg" min-camera-orbit="auto auto 383.7m" min-field-of-view="30deg" auto-rotate>
+    <button class="Hotspot" slot="hotspot-5" data-position="0.8159835038451078m 174.07335559094582m 9.421311206764269m" data-normal="0.15057423225134797m 0.27224491836018344m 0.9503736659908955m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Head</div>
+    </button><button class="Hotspot" slot="hotspot-6" data-position="3.2376982314030505m 140.1006119867895m 10.958123956288903m" data-normal="-0.10144501988487853m 0.47742617791202135m 0.8727961689792614m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Chest</div>
+    </button><button class="Hotspot" slot="hotspot-7" data-position="-0.08148670997554008m 112.89239951307796m 10.670270639834715m" data-normal="-0.3340047540031364m -0.14638273396117515m 0.9311352852842364m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Abdomen</div>
+    </button><button class="Hotspot" slot="hotspot-8" data-position="-13.93657500382425m 51.32694281794895m 5.068062992259426m" data-normal="0.14029606491365182m -0.11779094815858045m 0.9830779759010204m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Leg</div>
+    </button><button class="Hotspot" slot="hotspot-9" data-position="-33.41340102296467m 124.24836491731672m 1.6379997902565862m" data-normal="-0.1379822520007147m 0.053621966057080125m 0.9889820943217247m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Arm</div>
+    </button><button class="Hotspot" slot="hotspot-10" data-position="0.1755108625875863m 136.93242359336904m -12.186004482070135m" data-normal="-0.3475476176851806m -0.011871719132156235m -0.9375871776673371m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Back</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
